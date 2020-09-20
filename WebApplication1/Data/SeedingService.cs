@@ -9,7 +9,7 @@ namespace WebApplication1.Data
 {
     public class SeedingService
     {
-        private swmContext _context;
+        private readonly swmContext _context;
 
         public SeedingService(swmContext context)
         {
